@@ -9,10 +9,10 @@ import lombok.*;
 @Builder
 @ToString
 public class UserDTO {
-    private String first_name_eng;
-    private String first_name_ru;
-    private String last_name_eng;
-    private String last_name_ru;
-    private String email;
+    private String firstname_eng;
+    private String firstname_ru;
+    private String lastname_eng;
+    private String lastname_ru;
+    private String login;
     private String password;
 }
