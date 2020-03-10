@@ -21,7 +21,7 @@
     <tbody>
     <tr th:each="user : ${users}">
         <td th:text="${user.id}"></td>
-        <td th:text="${locale} == 'en' ? ${user.nameEng} : ${user.nameRu} + 'LocaleENG'"></td>
+        <td th:text="${locale} == 'en' ? ${user.nameEng} : ${user.nameRu}"></td>
         <td th:text="${locale} == 'en' ? ${user.lastNameEng} : ${user.lastNameRu}"></td>
         <td th:text="${user.login}"></td>
         <td th:text="${user.password}"></td>
